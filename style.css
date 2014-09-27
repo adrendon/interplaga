@@ -670,13 +670,13 @@ h1 {
 .carousel__home--list.mi-selected .carousel__home--item:before {
   top: -35px;
   left: 90px;
-  border-top-color: #d0d0d0;
+  border-top-color: #d0d0d0 !important;
   border-width: 20px;
 }
 .carousel__home--list.mi-selected .carousel__home--item:after {
   top: -37px;
   left: 91px;
-  border-top-color: #fff;
+  border-top-color: #fff !important;
   border-width: 19px;
 }
 .carousel__home--list:nth-child(1) .caroulsel__home--strong {
