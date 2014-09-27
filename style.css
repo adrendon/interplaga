@@ -308,6 +308,13 @@ h1 {
   font-size: 12px;
   outline: 0;
   text-align: center;
+  background: url 'img/header/iconSearch.png';
+  -webkit-background-size: 50% 50%;
+  -moz-background-size: 50% 50%;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 10px;
 }
 .headerBlock {
   overflow: hidden;
