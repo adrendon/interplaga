@@ -317,22 +317,23 @@ h1 {
 }
 .headerBlock__top--right {
   display: inline-block;
+  float: right;
+  margin-right: 1em;
   vertical-align: middle;
   width: 11.4%;
 }
 .headerBlock__top--rightBuscador {
   background: #f8f8f8;
-  height: 20px;
   width: 134px;
 }
 .headerBlock__top--rightBuscadorSearchForm {
   padding-left: 0.5em;
 }
 .headerBlock__top--rightBuscadorSearchFormIconSearch {
+  background: url("img/header/iconSearch.png") no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   background-size: 100%;
-  background: url("img/header/iconSearch.png") no-repeat;
   border: none;
   height: 10px;
   outline: 0;
