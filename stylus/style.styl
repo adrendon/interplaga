@@ -23,17 +23,6 @@ h1
   margin 0
   padding-left 2.5em
 
-.search
-  width 253px
-
-.icon-search
-  background #f8f8f8 url("img/header/iconSearch.png") no-repeat
-  background-size 50% 50%
-  border none
-  height 10px
-  outline 0
-  width 11px
-
 .headerBlock
   overflow hidden
   position absolute
@@ -50,9 +39,33 @@ h1
       vertical-align middle
       width 78%
     &--right
-      display inline-block
-      text-align right
-      vertical-align middle
+      display: inline-block;
+      vertical-align: middle;
+      width: 11.4%;
+      &Buscador
+        background: #f8f8f8;
+        height: 20px;
+        width: 134px;
+        &SearchForm
+          padding-left: .5em;
+          &IconSearch
+            background-size: 100%;
+            background: url("img/header/iconSearch.png") no-repeat;
+            border: none;
+            height: 10px;
+            outline: 0;
+            text-indent: -9999px;
+            vertical-align: middle;
+            width: 11px;
+          &SearchBox
+            background: none;
+            border: 0;
+            float: right;
+            font-size: 12px;
+            outline: 0;
+            padding: 0.3em 0;
+            text-align: center;
+            width: 115px;
   &__bottom
     height 146px
     margin auto
