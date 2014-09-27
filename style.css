@@ -897,9 +897,3 @@ footer {
   display: block;
   margin: 0 auto;
 }
-.mi-slider {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
