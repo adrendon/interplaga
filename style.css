@@ -608,10 +608,10 @@ h1 {
 .block__body {
   display: inline-block;
   line-height: 18px;
-  margin-left: 6em;
-  max-width: 540px;
+  margin-left: 3em;
+  max-width: 585px;
   vertical-align: top;
-  width: 47%;
+  width: 50%;
 }
 .block__body--title {
   color: #3859a2;
