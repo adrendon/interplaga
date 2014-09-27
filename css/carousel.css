@@ -1,83 +1,3 @@
-.mi-slider {
-  position: relative;
-  margin-top: 30px;
-  height: 362px;
-}
-
-.mi-slider ul {
-  list-style-type: none;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  overflow: hidden;
-  text-align: center;
-  pointer-events: none;
-  margin: 0;
-  padding: 0;
-}
-
-.no-js .mi-slider ul {
-  position: relative;
-  left: auto;
-  bottom: auto;
-  margin: 0;
-  overflow: visible;
-}
-
-.mi-slider ul.mi-current {
-  pointer-events: auto;
-}
-
-.mi-slider ul li {
-  display: inline-block;
-  padding: 0 20px;
-  -webkit-transform: translateX(600%);
-  transform: translateX(600%);
-  -webkit-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-  vertical-align: middle;
-}
-
-.no-js .mi-slider ul li {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-}
-
-.mi-slider ul li a,
-.mi-slider ul li img {
-  display: block;
-  margin: 0 auto;
-}
-
-.mi-slider ul li a {
-  outline: none;
-  cursor: pointer;
-}
-
-.mi-slider ul li img {
-  border: none;
-}
-
-
-
-/*.mi-slider ul li:hover {
-  opacity: 0.7;
-}*/
-
-.no-js nav {
-  display: none;
-}
-
-/*.mi-slider nav a {
-  text-transform: uppercase;
-  color: #3859a2;
-  outline: none;
-  font-size: 22px;
-  line-height: 22px;
-  font-weight: bold;
-  text-align: left;
-}*/
-
 /* Move classes and animations */
 
 .mi-slider ul:first-child li,
@@ -249,7 +169,7 @@
   }
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 490px){ 
   .mi-slider {
     text-align: center;
     height: auto;
