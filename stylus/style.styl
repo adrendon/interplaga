@@ -68,7 +68,7 @@ h1
             padding: 0.3em 0;
             width: 108px;
   &__bottom
-    height 146px
+    height 147px
     margin auto
     max-width 1170px
     &--figure
@@ -200,22 +200,26 @@ h1
       background #fff
       bottom 10%
       box-shadow 0px 2px 3px 0px rgba(41, 38, 4, 0.52)
+      color #00247d
+      cursor: pointer;
       max-width 298px
       position absolute
       right 5%
-      color #00247d
       text-align center
       text-transform uppercase
+      &:hover:before
+        top 45%
       &:before
         border-color transparent #fff transparent transparent
         border-style solid
         border-width 20px 20px 20px 0
         content ""
+        height: 0
         left -20px
         position absolute
         top 35px
+        transition: top 0.3s;
         width 0
-        height: 0
       &Content
         display: table-cell;
         height: 160px;
