@@ -140,15 +140,6 @@
   100% { -webkit-transform: translateX(-600%); transform: translateX(-600%); }
 }
 
-.mi-slider {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 /* Media Queries */
 @media screen and (max-width: 910px){
   .mi-slider nav {
