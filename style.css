@@ -872,12 +872,10 @@ footer {
   display: inline-block;
   padding: 0 20px;
   -webkit-transform: translateX(600%);
-  -webkit-transform: translateX(600%);
   -moz-transform: translateX(600%);
   -o-transform: translateX(600%);
   -ms-transform: translateX(600%);
   transform: translateX(600%);
-  -webkit-transition: opacity 0.2s linear;
   -webkit-transition: opacity 0.2s linear;
   -moz-transition: opacity 0.2s linear;
   -o-transition: opacity 0.2s linear;
