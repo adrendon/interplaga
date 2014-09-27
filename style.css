@@ -745,6 +745,14 @@ h1 {
   left: 0;
   top: 4px;
 }
+footer {
+  background: #f2f2f3;
+  border-top: solid 1px #aaa6a6;
+  height: 132px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
 .carousel_nav--tittle {
   text-transform: uppercase;
   color: #3859a2;
