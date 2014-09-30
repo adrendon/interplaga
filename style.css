@@ -598,17 +598,10 @@ h1 {
   vertical-align: middle;
   width: 21%;
 }
-.tree_category {
-  background: #dbcb19;
-  display: inline-block;
-  max-width: 465px;
-  vertical-align: top;
-  width: 41%;
-}
 .block__body {
   display: inline-block;
   line-height: 18px;
-  margin-left: 3em;
+  margin-left: 2.5em;
   max-width: 585px;
   vertical-align: top;
   width: 50%;
@@ -708,7 +701,18 @@ h1 {
   padding-left: 0.59374em;
 }
 .tabs a.active {
-  background: #f7f7f7;
+  background: -webkit-linear-gradient(top, #dbdbdb 0%, #fff 100%);
+  background: -moz-linear-gradient(top, #dbdbdb 0%, #fff 100%);
+  background: -o-linear-gradient(top, #dbdbdb 0%, #fff 100%);
+  background: -ms-linear-gradient(top, #dbdbdb 0%, #fff 100%);
+  background: linear-gradient(to bottom, #dbdbdb 0%, #fff 100%);
+}
+.tree_category {
+  background: #dbcb19;
+  display: inline-block;
+  max-width: 465px;
+  vertical-align: top;
+  width: 41%;
 }
 .tree_category--tab {
   color: #4a4a4a;
@@ -730,12 +734,77 @@ h1 {
   left: 0;
   top: 4px;
 }
-footer {
+.footer {
   background: #f2f2f3;
-  border-top: solid 1px #aaa6a6;
-  height: 132px;
+  -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,0.14);
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.14);
   margin: auto;
   position: relative;
+  width: 100%;
+}
+.footer ul {
+  margin: 0;
+  padding: 0;
+}
+.footer a {
+  color: #000;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.footer__block {
+  color: #565656;
+  font-size: 12px;
+  margin: auto;
+  max-width: 1170px;
+  padding: 4em 0 2em 0;
+}
+.footer__block--left,
+.footer__block--center,
+.footer__block--right {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__block--left,
+.footer__block--center {
+  width: 30%;
+}
+.footer__block--left {
+  margin-right: 55px;
+}
+.footer__block--center {
+  vertical-align: top;
+}
+.footer__block ul li {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__block--right {
+  width: 25%;
+}
+.powered {
+  margin: -16px 0 0 126px !important;
+  position: relative;
+}
+.redes,
+.iconos__footer {
+  display: inline-block;
+  vertical-align: top;
+}
+.redes {
+  height: auto;
+  max-width: 28px;
+}
+.iconos__footer {
+  float: right;
+  margin-top: -20px;
+}
+.iconos__footer img {
+  display: block;
+  height: auto;
+  max-width: 162px;
   width: 100%;
 }
 .carousel_nav--tittle {

@@ -23,6 +23,8 @@ h1
   margin 0
   padding-left 2.5em
 
+
+
 .headerBlock
   overflow hidden
   position absolute
@@ -49,7 +51,7 @@ h1
         width: 134px;
         &SearchForm
           padding-left: .5em;
-          &IconSearch            
+          &IconSearch
             background: url("img/header/iconSearch.png") no-repeat;
             background-size: 100%;
             border: none;
@@ -269,31 +271,22 @@ h1
     vertical-align middle
     width 21%
 
-.tree_category
-  background #dbcb19
-  display inline-block
-  max-width 465px
-  vertical-align top
-  width 41%
-
 .block__body
   display inline-block
   line-height 18px
-  margin-left 3em
+  margin-left 2.5em
   max-width: 585px;
   vertical-align top
   width: 50%;
-
-.block__body--title
-  color #3859a2
-  font-size 30px
-  font-weight bold
-  line-height 30px
-  margin 0
-  margin-bottom 0.6em
-
-.block__body--text
-  color #12317f
+  &--title
+    color #3859a2
+    font-size 30px
+    font-weight bold
+    line-height 30px
+    margin 0
+    margin-bottom 0.6em
+  &--text
+    color #12317f
 
 .block__body--textDestacado
   border-bottom solid 1px #aaa6a6
@@ -355,29 +348,89 @@ h1
     &:last-child
       padding-left 0.59374em
     &.active
-      background #f7f7f7
+      background linear-gradient(to bottom, #dbdbdb 0%,#ffffff 100%)
 
-.tree_category--tab
-  color #4a4a4a
-  line-height 18px
-  p
-    padding 0.5em 2.5em
-  li
-    position relative
-    padding-left 1.5em
-    &:before
-      content ""
-      position absolute
-      height 10px
-      background #f8ec6b
-      width 10px
-      left 0
-      top 4px
+.tree_category
+  background #dbcb19
+  display inline-block
+  max-width 465px
+  vertical-align top
+  width 41%
+  &--tab
+    color #4a4a4a
+    line-height 18px
+    p
+      padding 0.5em 2.5em
+    li
+      position relative
+      padding-left 1.5em
+      &:before
+        content ""
+        position absolute
+        height 10px
+        background #f8ec6b
+        width 10px
+        left 0
+        top 4px
 
-footer
+.footer
   background #f2f2f3
-  border-top solid 1px #aaa6a6
-  height 132px
+  box-shadow inset 0px 0px 10px rgba(0,0,0,0.14)
   margin auto
   position relative
   width 100%
+  ul
+    margin 0
+    padding 0
+  a
+    color #000000
+  p
+    margin 0
+    padding 0
+  &__block
+    color #565656
+    font-size 12px
+    margin auto
+    max-width 1170px
+    padding 4em 0 2em 0
+    &--left,
+    &--center,
+    &--right
+      display inline-block
+      vertical-align top
+    &--left,
+    &--center
+      width 30%
+    &--left
+      margin-right 55px
+    &--center
+      vertical-align top
+    ul
+      li
+        width 35%
+        display inline-block
+        vertical-align top
+    &--right
+      width 25%
+
+.powered
+  margin -16px 0 0 126px !important
+  position relative
+
+.redes,
+.iconos__footer
+  display inline-block
+  vertical-align top
+
+.redes
+  height auto
+  max-width 28px
+
+.iconos__footer
+  float: right;
+  margin-top: -20px;
+  img
+    display block
+    height auto
+    max-width 162px
+    width 100%
